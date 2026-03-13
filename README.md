@@ -2,6 +2,7 @@
 
 [![GitHub Release](https://img.shields.io/github/v/release/thegamerbay/roblox-luau-execution-action?style=flat-square)](https://github.com/thegamerbay/roblox-luau-execution-action/releases)
 [![Lint Code and Workflows](https://github.com/thegamerbay/roblox-luau-execution-action/actions/workflows/lint.yml/badge.svg)](https://github.com/thegamerbay/roblox-luau-execution-action/actions/workflows/lint.yml)
+[![codecov](https://codecov.io/gh/thegamerbay/roblox-luau-execution-action/graph/badge.svg)](https://codecov.io/gh/thegamerbay/roblox-luau-execution-action)
 [![Update Major Tag](https://github.com/thegamerbay/roblox-luau-execution-action/actions/workflows/release.yml/badge.svg)](https://github.com/thegamerbay/roblox-luau-execution-action/actions/workflows/release.yml)
 [![License](https://img.shields.io/github/license/thegamerbay/roblox-luau-execution-action?style=flat-square)](https://github.com/thegamerbay/roblox-luau-execution-action/blob/main/LICENSE)
 
