@@ -58,7 +58,7 @@ def upload_place(api_key, universe_id, place_id, place_file, publish):
     return place_version
 
 def create_task(api_key, universe_id, place_id, place_version, script_file):
-    print(f"::group::Creating Luau Execution Task")
+    print("::group::Creating Luau Execution Task")
     url = f"https://apis.roblox.com/cloud/v2/universes/{universe_id}/places/{place_id}/versions/{place_version}/luau-execution-session-tasks"
     
     headers = {
@@ -81,7 +81,7 @@ def create_task(api_key, universe_id, place_id, place_version, script_file):
     return task_data.get('path')
 
 def poll_task_and_get_logs(api_key, task_path):
-    print(f"::group::Polling Task Execution")
+    print("::group::Polling Task Execution")
     url_poll = f"https://apis.roblox.com/cloud/v2/{task_path}"
     url_logs = f"https://apis.roblox.com/cloud/v2/{task_path}/logs"
     
@@ -99,7 +99,7 @@ def poll_task_and_get_logs(api_key, task_path):
     print("::endgroup::")
 
     # Fetch Logs
-    print(f"::group::Luau Execution Logs")
+    print("::group::Luau Execution Logs")
     logs_data = make_request(url_logs, headers, method="GET")
     
     logs_text = ""
